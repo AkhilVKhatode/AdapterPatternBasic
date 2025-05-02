@@ -13,16 +13,16 @@ This project demonstrates how to use the Adapter Design Pattern to integrate dev
 
 Each device has its own communication and control logic, but through adapters, we can control them using the same methods.
 
-## Files
+## Classes
 
-- `SmartDevice.py`: Defines the `SmartDevice` interface, which all device-specific adapters implement.
-- `AirConditioner.py`: Contains the logic for controlling an Air Conditioner using Bluetooth.
-- `SmartLight.py`: Contains the logic for controlling a Smart Light using Wi-Fi.
-- `CoffeeMachine.py`: Contains the logic for controlling a Coffee Machine using Zigbee.
-- `AirConditionerAdapter.py`: Adapter for the Air Conditioner to conform to the `SmartDevice` interface.
-- `SmartLightAdapter.py`: Adapter for the Smart Light to conform to the `SmartDevice` interface.
-- `CoffeeMachineAdapter.py`: Adapter for the Coffee Machine to conform to the `SmartDevice` interface.
-- `SmartHomeController.py`: Main script to control all devices via their adapters.
+- `SmartDevice`: Defines the `SmartDevice` interface, which all device-specific adapters implement.
+- `AirConditioner.`: Contains the logic for controlling an Air Conditioner using Bluetooth.
+- `SmartLight`: Contains the logic for controlling a Smart Light using Wi-Fi.
+- `CoffeeMachine`: Contains the logic for controlling a Coffee Machine using Zigbee.
+- `AirConditionerAdapter`: Adapter for the Air Conditioner to conform to the `SmartDevice` interface.
+- `SmartLightAdapter`: Adapter for the Smart Light to conform to the `SmartDevice` interface.
+- `CoffeeMachineAdapter`: Adapter for the Coffee Machine to conform to the `SmartDevice` interface.
+- `SmartHomeController`: Main script to control all devices via their adapters.
 
 ## How It Works
 
